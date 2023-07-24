@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: cadetblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin: 10px;
+}
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px green;
+    color: green;
+}
+.input::placeholder {
+    color: lightgray;
+    font-family: inherit;
+}
+.btn {
+    background-color: green;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    font-family: inherit;
+    margin: 20px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.btn:hover {
+    filter: brightness(0.9);
+}
+.score {
+    color: green;
+    text-align: right;
+}
