@@ -6,6 +6,8 @@ const num2 = Math.ceil(Math.random()*10);
 
 const questionEl = document.getElementById('qustion');
 
+//score write form
+
 questionEl.innerText = `What is ${num1} multiply ${num2}?`
 
 
